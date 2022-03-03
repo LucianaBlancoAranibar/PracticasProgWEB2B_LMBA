@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Calibri;
+    color: black;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("images/tourism.jpg") ;
+    background-blend-mode: multiply;
+   background-repeat:round;
+   border-radius: 1%;
+    display: table-cell;
+    vertical-align: middle ;
+      height: 20em;
+      width: 150em;
+}
+table{
+	
+	text-align: center;
+	border-collapse:separate ;
+	width: 100%;
+    border: 0px;
+    margin: 1em;
+    
+}
+th, td{
+    color: #333;
+    
+}
+.band-name {
+    text-align: left;
+    font-family: "verdana";
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.897);
+    padding: .5em;
+}
+
+.content-section {
+    margin: 0.3em;
+}
+.container {
+    
+    margin: 0 auto;
+    padding: 2em;
+}
+.section-header {
+    font-family: Calibri;;
+    font-weight: normal;
+    color: black;
+    text-align:left;
+    font-size: 2em;
+
+}
+.section-header2 {
+    font-family:Calibri;
+    font-weight: normal;
+    color: black;
+    text-align:left;
+    font-size: 1em;
+    padding: .1em;
+}
+
+
+.shop-item {
+    margin: 5px;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.shop-item-image {
+    height: 300x;
+    width: 300px;
+
+}
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: black;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.cart-price {
+    font-family:Calibri;
+    font-size: 1em;
+    color: black;
+}
+
